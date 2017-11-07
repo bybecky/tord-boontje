@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document */
+/*	Becky Moberg
+	4.19.2016
+	==================================================
+	Table of Contents
+	==================================================
+		:: Elements
+		:: Navigation
+		:: Classes
+/*	Elements
+	================================================== */
+	/** { border: 1px solid red; }*/
+	
+	
+	blockquote { z-index: 0; font-family: 'Bad Script', cursive; color: #cfa44b; font-size: 3em;
+				position: relative; padding: 0.8em 4em 0.8em 4em; display: inline;}
+	
+	blockquote:before { font-family: Georgia, serif; position: absolute; font-size: 200px; 
+	content: "\201C"; margin-left: -80px;margin-top: -20px; height: 45px; }
+    blockquote:after { font-family: Georgia, serif; position: absolute; content: "\201D"; float: right; height: 25px;  margin-top: -40px;  padding-top: 15px; font-size: 200px; color: #cfa44b;}
+		
+	h1 { font-family: 'Oxygen', sans-serif; color: #000; font-size: 60px; float: left; margin-top: -20px;}
+	h2 { font-family: 'Oxygen', sans-serif; color: #cfa44b; font-size: 60px; }	
+	h3 { font-family: 'Oxygen', sans-serif; color: #000; font-size: 20px; }	
+	h4 { font-family: 'Bad Script', cursive; color: #cfa44b; font-size: 200px;}
+	body {font-family: 'Oxygen', sans-serif; color: #000; font-size: 14px; }	 
+	
+/*  Navigation
+ 	================================================== */
+	
+	body	{ background: url('../images/background.png'); }
+		
+	.navigation li { display: inline; padding: 20px 40px 20px 40px; margin: -5px; }
+	#navigation ul { margin-top: 20px; }
+	#navigation { z-index: 9999; position: fixed; width: 1200px; background: #fff; top: 0; padding-top: 20px; }
+				
+	#navigation a { text-decoration: none; color: #640; padding-bottom: 2px; }
+	#navigation a:hover, #navigation a.current { color: #cfa44b; border-bottom: 4px solid #cfa44b; } 		  	  
+	.hover a.current { color: #cfa44b; }
+	
+	#home { padding-top: 150px; }
+	#biography { padding-top: 150px; }
+	#furniture { padding-top: 150px; }
+	#lighting { padding-top: 150px; }
+	#miscellaneous { padding-top: 150px; }
+	#resources { padding-top: 150px; }
+	
+/*	Classes
+	================================================== */
+	.wrapper { width: 1200px; height: 5126px; }
+	
+	a:link			{ color: #000; text-decoration: none; }
+	a:visited	 	{ color: #000; }
+	a:hover			{ color: #cfa44b; }
+	a:active		{ color: #A9A9A9;}
+
+    .container { width: 1200px; height:900px;}
+	.background-color {color: white; width: 1200px; height: 5px;}
+	
+	.thumbnail { width: 225px; float: left;  padding: 10px; }
+	
+	.resources {background: white; padding: 20px 40px 20px 40px}
+	.text li {display: inline; padding: 100px; float: left; margin-top: -150px;}
+	
+	.row { text-align: left; margin-right: 50px; padding: 60px; margin-top: -100px;
+	}
+	.btn {  display: inline-block; margin-right: 10px; background-color: #fff;
+	}
+	.nowrap {  white-space: nowrap ;
+	}
+	.gold { color: #cfa44b; }
+	
+	.portrait1 {margin-bottom: 50px; }
+	.portrait2 {float: right; margin-top: 250px; }
+	
+	.sofa {float: left; }
+	.bonbon {float: left; }
+	.rain {float: left; }
+	.petitjardin { float: left; }
+	
+	.botanical {float: left; }
+	.garland {float: left; }
+	.midsummer {float: left; }
+	.buzz {float: left; }
+	
+	.enchantingtree{float: left; }
+	.lighttouching {float: left; }
+	.phillips {float: left; }
+	.castle {float: left; }
+		
+	.book {float: right; }
+	.footer { color: #cfa44b; float: right; margin-top:450px;}
+	.clear { clear: both; }
+	.left { float: left; }
